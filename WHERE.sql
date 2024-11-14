@@ -7,3 +7,7 @@ SELECT *
 FROM orders
 WHERE total_amt_usd < 500
 LIMIT 10;
+-------------------------------------------------------------------------------------------------
+SELECT name, website, primary_poc
+FROM accounts
+WHERE name = 'Exxon Mobil'
